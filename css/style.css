@@ -1,0 +1,40 @@
+ /*////////////////////////////////////////////////////////////////////////////////////////////*/
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ header {
+    background-color: #001845;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px
+ }
+
+ header section {
+    display: flex;
+    align-items: center;
+    gap: 20px
+ }
+
+
+
+ .botao_azul {
+    background-color: #003169;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+ }
+
+ .botao_cinza {
+    background-color: #7D8597;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+ }
+ 
+ /*///////////////////////////////////////////////////////////////////////////////////////////*/
