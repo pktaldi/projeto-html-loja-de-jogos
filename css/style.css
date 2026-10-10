@@ -1,40 +1,57 @@
  /*////////////////////////////////////////////////////////////////////////////////////////////*/
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Motiva Sans", Sans-serif;
+}
  
- header {
-    background-color: #001845;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px
- }
+header {
+  background-color: #171A21;
+  color: #fff;
+  display: flex;
+   justify-content: space-between;
+   padding: 25px
+}
 
- header section {
-    display: flex;
-    align-items: center;
-    gap: 20px
- }
+header section {
+   display: flex;
+   align-items: center;
+   gap: 30px
+}
 
 
 
- .botao_azul {
-    background-color: #003169;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #fff;
- }
+.botao_header {
+   font-size: 18px;
+   text-decoration: none;
+   color: #fff;
+}
 
- .botao_cinza {
-    background-color: #7D8597;
-    padding: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #000;
- }
+#botao_header_selecionado {
+   font-size: 18px;
+   color: rgb(54, 54, 255);
+}
+
+.botao_cinza {
+   background-color: #7D8597;
+   padding: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+   color: #000;
+}
+
+#main1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  
+}
+#main1 img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
  
  /*///////////////////////////////////////////////////////////////////////////////////////////*/
