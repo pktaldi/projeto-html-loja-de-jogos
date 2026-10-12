@@ -23,17 +23,18 @@ header section {
 
 
 .botao_header {
-   font-size: 18px;
+   font-size: 15px;
    text-decoration: none;
    color: #fff;
 }
 
 #botao_header_selecionado {
-   font-size: 18px;
+   font-size: 14px;
    color: rgb(54, 54, 255);
 }
 
 .botao_cinza {
+   font-size: 14px;
    background-color: #7D8597;
    padding: 10px;
    border-radius: 10px;
@@ -41,29 +42,40 @@ header section {
    color: #000;
 }
 
-#margem-main {
-   margin-left: 210px;
-   margin-right: 210px;
+#barra_opcoes {
+   padding: 30px;
 }
+
+#barra_opcoes a {
+   background-color:#292e3b;
+   color: #ffffffb6;
+   margin-left: 300px;
+   padding: 12px;
+   padding-right: 100px;
+   border-radius: 30px;
+}
+
 main {
    background-color:#000;
    color: #fff
 }
 
 #main1 {
-   display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-#main1 {
-  margin-top: 50px;
-}
+
 #main1 img {
-  width: 1100px;
+   
   height: 500px;
   object-fit: cover;
   border-radius: 20px;
+}
+
+#main1 p {
+   font-size: 70px
 }
  
 #main2 {
