@@ -41,17 +41,36 @@ header section {
    color: #000;
 }
 
+#margem-main {
+   margin-left: 210px;
+   margin-right: 210px;
+}
+main {
+   background-color:#000;
+   color: #fff
+}
+
 #main1 {
-  display: flex;
+   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 500px;
-  
+}
+
+#main1 {
+  margin-top: 50px;
 }
 #main1 img {
+  width: 1100px;
   height: 500px;
-  width: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
  
+#main2 {
+   margin-top: 50px;
+}
+
+#main2 h2 {
+   font-size: 30px;
+}
  /*///////////////////////////////////////////////////////////////////////////////////////////*/
