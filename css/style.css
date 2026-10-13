@@ -23,7 +23,7 @@ header section {
 
 
 .botao_header {
-   font-size: 15px;
+   font-size: 14px;
    text-decoration: none;
    color: #fff;
 }
@@ -67,8 +67,7 @@ main {
 }
 
 
-#main1 img {
-   
+#main1 img {  
   height: 500px;
   object-fit: cover;
   border-radius: 20px;
@@ -78,11 +77,23 @@ main {
    font-size: 70px
 }
  
-#main2 {
-   margin-top: 50px;
+#maisVendidos {
+   display: flex;
+   justify-content: center;
 }
 
-#main2 h2 {
-   font-size: 30px;
+#img_maisVendidos {
+   width: 400px;
+   border-radius: 20px;
 }
+
+.card_maisVendidos {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+}
+.card_maisVendidos img {
+   width: 50px;
+}
+
  /*///////////////////////////////////////////////////////////////////////////////////////////*/
