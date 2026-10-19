@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 900px;
+    border-collapse: collapse;
+    margin-left: 225px;
+    margin-top: 160px;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+    color: white;
+}
+
+caption {
+    margin: 10px;
+    font-size: 30px;
+}
