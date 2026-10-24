@@ -46,10 +46,10 @@ header section {
    padding: 30px;
 }
 
-#barra_opcoes a {
+#botao_pesquisar {
    background-color:#292e3b;
    color: #ffffffb6;
-   margin-left: 300px;
+   margin-left: 20%;
    padding: 12px;
    padding-right: 100px;
    border-radius: 30px;
