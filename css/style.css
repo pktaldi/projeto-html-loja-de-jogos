@@ -43,13 +43,14 @@ header section {
 }
 
 #barra_opcoes {
-   padding: 30px;
+   padding-bottom: 30px;
+   padding-top: 30px;
 }
 
 #botao_pesquisar {
    background-color:#292e3b;
+   border: none;
    color: #ffffffb6;
-   margin-left: 20%;
    padding: 12px;
    padding-right: 100px;
    border-radius: 30px;
